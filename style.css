@@ -1,0 +1,93 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+    padding: 0 186px;
+    flex-shrink: 0;
+       
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+   
+}
+
+.navbar-logo img {
+    width: 62px;
+    height: 62px;
+    flex-shrink: 0;
+   
+}
+
+.navbar-links {
+    display: flex;
+    gap: 32px;
+    margin-left: 186px;
+}
+
+.nava1 {
+    color: var(--Orange, #FEA301);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 150% */
+    text-decoration: none;
+}
+.nava2 {
+    color: var(--Sky-Blue, #01ACFD);
+        font-family: Quicksand;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        /* 150% */
+        text-decoration: none;
+        }
+        .nava3 {
+            color: #05D4DF;
+                font-family: Quicksand;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 30px;
+                /* 150% */
+                text-decoration: none;
+                }
+                .nava4 {
+                    color: #5D58EF;
+                        font-family: Quicksand;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 30px;
+                        /* 150% */
+                        text-decoration: none;
+                        }
+                        .navbar-button {
+                            display: flex;
+                            width: 197px;
+                            padding: 10px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            flex-shrink: 0;
+                            border-radius: 12px;
+                            background: var(--Orange, #FEA301);
+                            color: #FFF;
+                            font-family: Quicksand;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 30px;
+                        }
+
+
+
+
+
+
