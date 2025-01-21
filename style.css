@@ -85,9 +85,81 @@
                             font-weight: 600;
                             line-height: 30px;
                         }
-
-
-
-
-
-
+                                                                   .hero {
+                                                                       display: flex;
+                                                                       align-items: center;
+                                                                       gap: 50px;
+                                                                       /* Gap between text part and image */
+                                                                       width: 100%;
+                                                                       /* Make it responsive */
+                                                                       background: var(--White, #F7F7F7);
+                                                                   }
+                                
+                                                                   .herotextpart {
+                                                                       display: flex;
+                                                                       flex-direction: column;
+                                                                       align-items: flex-start;
+                                                                       gap: 24px;
+                                                                       /* General gap between all text parts */
+                                                                       width: 640px;
+                                                                   }
+                                
+                                                                   .t1,
+                                                                   .t2,
+                                                                   .t3,
+                                                                   .t4 {
+                                                                       font-family: Quicksand;
+                                                                       font-size: 56px;
+                                                                       font-weight: 700;
+                                                                       line-height: 61px;
+                                                                       margin: 0;
+                                                                   }
+                                
+                                                                   .t1 {
+                                                                       color: var(--Orange, #FEA301);
+                                                                   }
+                                
+                                                                   .t2,
+                                                                   .t3 {
+                                                                       color: var(--Black, #111);
+                                                                   }
+                                
+                                                                   .t4 {
+                                                                       color: var(--Sky-Blue, #01ACFD);
+                                                                   }
+                                
+                                                                   .t3t4 {
+                                                                       display: flex;
+                                                                       gap: 10px;
+                                                                       /* Adjust the space between 'age' and 'towards vision' */
+                                                                   }
+                                
+                                                                   .t5 {
+                                                                       font-family: Quicksand;
+                                                                       font-size: 20px;
+                                                                       font-weight: 400;
+                                                                       line-height: 28px;
+                                                                       color: var(--Black, #111);
+                                                                   }
+                                
+                                                                   .hero-button {
+                                                                       display: flex;
+                                                                       width: 197px;
+                                                                       padding: 10px;
+                                                                       justify-content: center;
+                                                                       align-items: center;
+                                                                       gap: 10px;
+                                                                       border-radius: 12px;
+                                                                       background: var(--Black, #111);
+                                                                       color: #FFF;
+                                                                       font-family: Quicksand;
+                                                                       font-size: 20px;
+                                                                       font-weight: 700;
+                                                                       line-height: 30px;
+                                                                   }
+                                
+                                                                   .hero-image {
+                                                                       width: 468px;
+                                                                       /* Match this with the image aspect ratio */
+                                                                       height: auto;
+                                                                   }
