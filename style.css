@@ -5,21 +5,21 @@
     width: 1160px;
     padding: 0 186px;
     flex-shrink: 0;
-       
+
 }
 
 .navbar-logo {
     display: flex;
     align-items: center;
     gap: 16px;
-   
+
 }
 
 .navbar-logo img {
     width: 62px;
     height: 62px;
     flex-shrink: 0;
-   
+
 }
 
 .navbar-links {
@@ -38,128 +38,272 @@
     /* 150% */
     text-decoration: none;
 }
+
 .nava2 {
     color: var(--Sky-Blue, #01ACFD);
-        font-family: Quicksand;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 30px;
-        /* 150% */
-        text-decoration: none;
-        }
-        .nava3 {
-            color: #05D4DF;
-                font-family: Quicksand;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 30px;
-                /* 150% */
-                text-decoration: none;
-                }
-                .nava4 {
-                    color: #5D58EF;
-                        font-family: Quicksand;
-                        font-size: 20px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: 30px;
-                        /* 150% */
-                        text-decoration: none;
-                        }
-                        .navbar-button {
-                            display: flex;
-                            width: 197px;
-                            padding: 10px;
-                            justify-content: center;
-                            align-items: center;
-                            gap: 10px;
-                            flex-shrink: 0;
-                            border-radius: 12px;
-                            background: var(--Orange, #FEA301);
-                            color: #FFF;
-                            font-family: Quicksand;
-                            font-size: 20px;
-                            font-style: normal;
-                            font-weight: 600;
-                            line-height: 30px;
-                        }
-                                                                   .hero {
-                                                                       display: flex;
-                                                                       align-items: center;
-                                                                       gap: 50px;
-                                                                       /* Gap between text part and image */
-                                                                       width: 100%;
-                                                                       /* Make it responsive */
-                                                                       background: var(--White, #F7F7F7);
-                                                                   }
-                                
-                                                                   .herotextpart {
-                                                                       display: flex;
-                                                                       flex-direction: column;
-                                                                       align-items: flex-start;
-                                                                       gap: 24px;
-                                                                       /* General gap between all text parts */
-                                                                       width: 640px;
-                                                                   }
-                                
-                                                                   .t1,
-                                                                   .t2,
-                                                                   .t3,
-                                                                   .t4 {
-                                                                       font-family: Quicksand;
-                                                                       font-size: 56px;
-                                                                       font-weight: 700;
-                                                                       line-height: 61px;
-                                                                       margin: 0;
-                                                                   }
-                                
-                                                                   .t1 {
-                                                                       color: var(--Orange, #FEA301);
-                                                                   }
-                                
-                                                                   .t2,
-                                                                   .t3 {
-                                                                       color: var(--Black, #111);
-                                                                   }
-                                
-                                                                   .t4 {
-                                                                       color: var(--Sky-Blue, #01ACFD);
-                                                                   }
-                                
-                                                                   .t3t4 {
-                                                                       display: flex;
-                                                                       gap: 10px;
-                                                                       /* Adjust the space between 'age' and 'towards vision' */
-                                                                   }
-                                
-                                                                   .t5 {
-                                                                       font-family: Quicksand;
-                                                                       font-size: 20px;
-                                                                       font-weight: 400;
-                                                                       line-height: 28px;
-                                                                       color: var(--Black, #111);
-                                                                   }
-                                
-                                                                   .hero-button {
-                                                                       display: flex;
-                                                                       width: 197px;
-                                                                       padding: 10px;
-                                                                       justify-content: center;
-                                                                       align-items: center;
-                                                                       gap: 10px;
-                                                                       border-radius: 12px;
-                                                                       background: var(--Black, #111);
-                                                                       color: #FFF;
-                                                                       font-family: Quicksand;
-                                                                       font-size: 20px;
-                                                                       font-weight: 700;
-                                                                       line-height: 30px;
-                                                                   }
-                                
-                                                                   .hero-image {
-                                                                       width: 468px;
-                                                                       /* Match this with the image aspect ratio */
-                                                                       height: auto;
-                                                                   }
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+    text-decoration: none;
+}
+
+.nava3 {
+    color: #05D4DF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+    text-decoration: none;
+}
+
+.nava4 {
+    color: #5D58EF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+    text-decoration: none;
+}
+
+.navbar-button {
+    display: flex;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--Orange, #FEA301);
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    /* Gap between text part and image */
+    width: 100%;
+    /* Make it responsive */
+    background: var(--White, #F7F7F7);
+}
+
+.herotextpart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 640px;
+}
+
+.t1,.t2,.t3,.t4 {
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    margin: 0;
+}
+
+.t1 {
+    color: var(--Orange, #FEA301);
+}
+
+.t2,
+.t3 {
+    color: var(--Black, #111);
+}
+
+.t4 {
+    color: var(--Sky-Blue, #01ACFD);
+}
+
+.t3t4 {
+    display: flex;
+    gap: 10px;
+}
+
+.t5 {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--Black, #111);
+}
+
+.hero-button {
+    display: flex;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: var(--Black, #111);
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.hero-image {
+    width: 468px;
+   
+    height: auto;
+}
+/* General Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+    max-width: 1440px;
+   
+    margin: 0 auto;
+    padding: 60px 0;
+   
+    gap: 80px;
+   
+}
+
+/* Header Section */
+.text2 {
+    display: flex;
+    justify-content: center;
+    /* Center the text */
+    width: 100%;
+    /* Full width */
+    color: #000;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    /* Set line height */
+    margin-bottom: 60px;
+    /* Space below header */
+}
+
+/* Card Wrapper to hold cards in a row */
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+   
+}
+
+/* General Card Styles */
+.card1,
+.card2,
+.card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 367.805px;
+    height: 476.784px;
+    padding: 52.819px 40.668px;
+    gap: 32.069px;
+    border-radius: 18.864px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px rgba(0, 0, 0, 0.05) inset;
+    flex-shrink: 0;
+}
+
+/* Individual Card Backgrounds */
+.card1 {
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+}
+
+.card2 {
+    border: 0.943px solid #FFF4DC;
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+}
+
+.card3 {
+    border: 0.943px solid #F2E8FF;
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+}
+
+/* Card Images */
+.imgcard1,
+.cardimg2,
+.cardimg3 {
+    width: 136.763px;
+    height: 136.763px;
+    flex-shrink: 0;
+}
+
+/* Card Titles */
+.cardh1,
+.cardh2,
+.cardh3 {
+    display: flex;
+    justify-content: center;
+    /* Center the title */
+    text-align: center;
+    color: #202020;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.654px;
+    /* Line height */
+}
+
+/* Card Descriptions */
+.cardp1,
+.cardp2,
+.cardp3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #808080;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15.091px;
+    font-weight: 500;
+    line-height: 28.296px;
+    width: 286.259px;
+    height: 74.512px;
+}
+
+/* Card Links */
+.cardl1,
+.cardl2,
+.cardl3 {
+    display: flex;
+    justify-content: center;
+    color: #64C8FF;
+    /* Specific to card1 */
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15.091px;
+    font-weight: 700;
+    line-height: 28.296px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cardl2 {
+    color: #F0AA00;
+    /* Specific to card2 */
+}
+
+.cardl3 {
+    color: #8700FF;
+    /* Specific to card3 */
+}
