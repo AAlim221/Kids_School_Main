@@ -307,3 +307,9 @@
     color: #8700FF;
     /* Specific to card3 */
 }
+.group11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
