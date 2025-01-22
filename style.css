@@ -313,3 +313,257 @@
     align-items: center;
     gap: 10px; 
 }
+.bg{
+    display: flex;
+        width: 1440px;
+        padding: 60px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+}
+
+/* General background and layout */
+.background {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: url('assets/bg.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 16px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+/* Center align the 'Our Stories' heading */
+.bgtext {
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto 20px;
+    /* Center the heading */
+    width: 100%;
+}
+
+/* Left side card styles */
+.leftpart {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.leftpart .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgl {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.bgstory {
+    background-color: #95B226;
+    border-radius: 47.934px;
+    color: #FFF;
+    padding: 5px 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.story-1t {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Quicksand;
+    margin-top: 10px;
+    text-align: center;
+    /* Center the text */
+}
+
+.storyt2 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+    text-align: center;
+    /* Center the text */
+    margin-top: 10px;
+    max-width: 90%;
+}
+
+/* Right side card layout */
+.rightpart {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Cards layout */
+.cards-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cardt1,
+.cardt2,
+.cardt3,
+.cardt4 {
+    width: 48%;
+    background-color: #FFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: left;
+}
+
+/* Image and Text Styling */
+.cards-row img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.textc1,
+.imgsc2t1,
+.cardt3t1,
+.cardt4t1 {
+    background: #95B226;
+    color: #FFF;
+    border-radius: 47.934px;
+    text-align: center;
+    padding: 5px;
+    font-family: Raleway;
+    font-size: 15.339px;
+    font-weight: 500;
+    line-height: 28.761px;
+}
+
+.textc2,
+.imgsc2t2,
+.cardt3t2,
+.cardt4t2 {
+    color: #000;
+    font-family: Quicksand;
+    font-size: 15.339px;
+    font-weight: 700;
+    line-height: 28.761px;
+    margin-top: 10px;
+}
+
+/* View All Button */
+.viewall-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    /* Ensure full width for central alignment */
+}
+
+.btn {
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: var(--Black, #111);
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+    background: #01ACFD;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    /* Ensure this is a column layout for stacking elements */
+    align-items: flex-start;
+    max-width: 300px;
+}
+
+.logo1 {
+    width: 82.902px;
+    height: 81.652px;
+    margin-right: 10px;
+    /* Space between logo and text */
+}
+
+.logot1 {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    display: inline-block;
+    /* Ensures it stays inline with the logo */
+}
+
+.logot2 {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    display: block;
+    /* Makes logot2 a block-level element */
+    margin-top: 10px;
+    /* Space between logot1 and logot2 */
+}
+
+.links1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.links1 a {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.rightpart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rightT1 {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #FFF;
+    font-size: 24px;
+    text-decoration: none;
+}
